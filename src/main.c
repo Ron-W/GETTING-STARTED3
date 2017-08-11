@@ -1,4 +1,6 @@
 /**
+ * Changes the flash rate from 1 Hz to 0.25 Hz 
+ *
  * \file
  *
  * \brief Getting Started Application.
@@ -421,7 +423,7 @@ int main(void)
 			printf("1 ");
 		}
 
-		/* Wait for 500ms */
+		/* Wait for 2000 ms/2 s/ 0.25 Hz */
 		mdelay(2000);
 	}
 //! [main_step_loop]
